@@ -1,4 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react';
+
+import { images } from '../../wrapper';
+import { AppWrap, MotionWrap } from '../../wrapper'
 
 import './Footer.scss'
 
