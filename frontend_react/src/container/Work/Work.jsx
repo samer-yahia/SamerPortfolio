@@ -113,7 +113,7 @@ const Work = () => {
           </div>
         ))}
       </div>
-      <div className='app__flex'>
+      <div className='app__work-cards app__flex'>
         {
           filterWork.map((work, index) => {
             return (

@@ -74,7 +74,7 @@ const Skills = () => {
 
   const workExp = [
     { 
-      year: 'Present',
+      year: '2027-Present',
       experience: [
         {
         name: 'IT and Full Stack Developer Lead',
@@ -132,7 +132,7 @@ const Skills = () => {
                 key={ work.year }
               >
                 <div className="app__skills-exp-year">
-                  <p className="bold-text">{ work.year }</p>
+                  <p className="label_spacer bold-text">{ work.year }</p>
                 </div>
 
                 <motion.div className='app__skills-exp-works'>

@@ -87,7 +87,8 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    margin-left: 5rem;
+    margin-left: auto;
+    margin-right: auto;
   
     @media screen and (max-width: 900px) {
       margin-top: 2rem;
@@ -102,11 +103,13 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin: 1rem 0;
+    gap: 18px;
   }
   
   .app__skills-exp-works {
     flex: 1;
-    margin-left: 4rem;
+    display: flex;
+    width: 70%;
   
     .app__skills-exp-work {
       display: flex;
@@ -125,21 +128,24 @@
         color: var(--gray-color);
         margin-top: 5px;
       }
+
+      @media screen and (max-width: 900px) {
+        width: 80%;
+      }
     }
   }
   
   .app__skills-exp-year {
-    position: absolute;
-    margin-right: 3rem;
-
+    width: 35%;
   
     p {
       font-weight: 800;
       color: var(--secondary-color);
+      text-align: right;
     }
   
-    @media screen and (max-width: 450px) {
-      margin-right: 1rem;
+    @media screen and (max-width: 900px) {
+      width: 20%;
     }
   }
   
@@ -159,4 +165,8 @@
       max-width: 500px !important;
       line-height: 2 !important;
     }
+  }
+
+  .label_spacer {
+
   }
