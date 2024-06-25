@@ -8,7 +8,6 @@ import './About.scss'
 
 const abouts = [
   {title: 'Full-Stack', description: 'I am a Full-Stack Developer.', imgUrl: images.fullStack },
-  {title: 'Backend Development', description: 'I am a strong Backend programmer.', imgUrl: images.backEnd},
   {title: 'Server Management', description: 'I am an avid learner of cloud platforms.', imgUrl: images.cloudServer},
   {title: 'Python', description: 'My strongest language is Python.', imgUrl: images.python2},
   {title: 'MERN', description: 'MERN is my favorite full stack.', imgUrl: images.mernStack}
@@ -44,7 +43,7 @@ const About = () => {
 						build meaningful relationships with both colleagues and clients alike.
             <br /> <br />
             My journey began in the medical field, where I 
-						found motivation in making positive heatlth improvements in my patient's lives. As I navigated the healthcare system, 
+						found motivation in making positive health improvements in my patient's lives. As I navigated the healthcare system, 
 						I realized that my true calling lay elsewhere, in the world of coding and technology. Coding, which began as a hobby, 
 						has now become my profession and creative outlet. I am particularly drawn to backend development, automation, AI, and 
 						even dabble in mobile game development on the side. I am eager to continue my professional growth and contribute 

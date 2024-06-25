@@ -41,7 +41,6 @@ const Header = () => {
             <TypeAnimation 
               sequence={[
                   "Full-Stack Developer", 1000,
-                  "Aspiring AI Engineer", 1000,
                   "MERN Programmer", 1000,
                   "Azure Enthusiast", 1000,
               ]}
